@@ -4,7 +4,11 @@
 This project simulates a small office network in Cisco Packet Tracer. The network utilizes:
 
 - VLAN segmentation
-- trunkk/access port configurations
+- trunk/access port configurations
 - router-on-a-stick inter-VLAN routing
 
 The goal of this lab was to utilize common Layer 2 and Layer 3 networking concepts used in enterprise environments.
+
+## Network Topology
+
+<img width="1895" height="726" alt="image" src="https://github.com/user-attachments/assets/26df3e36-6433-4528-bac9-00bb355bfbd4" />

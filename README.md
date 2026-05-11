@@ -35,8 +35,17 @@ The goal of this lab was to utilize common Layer 2 and Layer 3 networking concep
     switchport mode trunk
     switchport trunk allowed vlan 10,20,30
 
-## Router-on-a-Stick Example
+### Router-on-a-Stick Example
 
     interface g0/0.10
     encapsulation dot1Q 10
     ip address 192.168.1.1 255.255.255.0
+
+## Skills Utilized:
+- VLAN segmentation
+- Access/Trunk port configuration
+- Cisco CLI
+- Inter-VLAN routing
+- Simple enterprise network topology/design
+- Layer 2 switching concepts
+- Network troubleshooting/connectivity testing

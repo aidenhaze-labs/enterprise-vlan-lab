@@ -1,3 +1,12 @@
+! Defining VLANS
+    vlan 10
+    name SALES
+    vlan 20
+    name IT
+    vlan 30
+    name GUEST
+
+! Configuring 4 trunk ports (1 for each access switch and one for router)
 interface range fa0/21-24
   switchport mode trunk
   switchport trunk allowed vlan 10,20,30

@@ -1,19 +1,25 @@
+! First VLAN configuration on port 1
     vlan 10
     name SALES
     interface fa0/1
         switchport mode access
         switchport access vlan 10
+
+! Second VLAN configuration on port 2
     vlan 20
     name IT
     interface fa0/2
         switchport mode access
         switchport access vlan 20
+
+! Third VLAN configuration on port 3
     vlan 30
     name GUEST
     interface fa0/3
         switchport mode access
         switchport access vlan 30
 
+! Trunk link to core switch
     interface fa0/24
         switchport mode trunk
         switchport trunk allowed vlan 10,20,30
